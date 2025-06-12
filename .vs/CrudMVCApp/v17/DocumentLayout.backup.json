@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\alejandro_t\\desktop\\crudmvcapp\\controllers\\direccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:controllers\\direccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\alejandro_t\\desktop\\crudmvcapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\alejandro_t\\desktop\\crudmvcapp\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\alejandro_t\\desktop\\crudmvcapp\\views\\direccions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\direccions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\alejandro_t\\desktop\\crudmvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\alejandro_t\\desktop\\crudmvcapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\alejandro_t\\desktop\\crudmvcapp\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\alejandro_t\\desktop\\crudmvcapp\\models\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:models\\direccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonasController.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Controllers\\PersonasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonasController.cs",
+              "ToolTip": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Controllers\\PersonasController.cs",
+              "RelativeToolTip": "Controllers\\PersonasController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAswGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:52:47.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Views\\Direccions\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Direccions\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Views\\Direccions\\Create.cshtml",
+              "RelativeToolTip": "Views\\Direccions\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T01:50:41.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:49:18.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T01:41:08.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DireccionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Controllers\\DireccionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DireccionsController.cs",
+              "ToolTip": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Controllers\\DireccionsController.cs",
+              "RelativeToolTip": "Controllers\\DireccionsController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:37:55.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:17:18.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Models\\Persona.cs",
+              "RelativeToolTip": "Models\\Persona.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:14:13.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Direccion.cs",
+              "DocumentMoniker": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Models\\Direccion.cs",
+              "RelativeDocumentMoniker": "Models\\Direccion.cs",
+              "ToolTip": "C:\\Users\\Alejandro_T\\Desktop\\CrudMVCApp\\Models\\Direccion.cs",
+              "RelativeToolTip": "Models\\Direccion.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T01:07:47.993Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
