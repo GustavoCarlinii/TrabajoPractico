@@ -1,0 +1,31 @@
+﻿
+@model CrudMVCApp.Models.Usuario
+
+@* @{
+    layout = "_layout";
+    viewdata["ocultarnavbar"] = true;
+} *@
+
+@{
+    ViewData["Title"] = "Iniciar Sesión";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Login" method="post">
+    <div class="form-group">
+        <label asp-for="nombre"></label>
+        <input asp-for="nombre" class="form-control" />
+        <span asp-validation-for="nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Clave"></label>
+        <input asp-for="Clave" class="form-control" />
+        <span asp-validation-for="Clave" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Entrar</button>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
