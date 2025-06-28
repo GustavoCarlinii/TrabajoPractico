@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Controllers",
-    "\\Models"
+    "\\bin",
+    "\\Views"
   ],
-  "SelectedNode": "\\Controllers\\LoginController.cs",
+  "SelectedNode": "\\CrudMVCApp.sln",
   "PreviewInSolutionExplorer": false
 }

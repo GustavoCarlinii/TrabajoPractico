@@ -7,13 +7,15 @@ namespace CrudMVCApp.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "El nombre de usuario es obligatorio")]
         public string nombre { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "La contraseña es obligatoria")]
         public string Clave { get; set; } // En sistemas reales, esto debería ser un hash
    
-        public string Tipo { get; set; }
+        [Required(ErrorMessage = "El tipo de usuario es obligatorio")]
+        public string Tipo { get; set; } = "usuario"; // Valor predeterminado
+        
         public Usuario() { }
     
     }

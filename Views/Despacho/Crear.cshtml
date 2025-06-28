@@ -1,0 +1,173 @@
+@model CrudMVCApp.Models.ViewModels.PedidoViewModel
+
+@{
+    ViewData["Title"] = "Registro de Despacho";
+    var detallesJson = TempData["DetallesPedido"] as string;
+    var detalles = string.IsNullOrEmpty(detallesJson) 
+        ? new List<CrudMVCApp.Models.ViewModels.DetallePedidoViewModel>() 
+        : System.Text.Json.JsonSerializer.Deserialize<List<CrudMVCApp.Models.ViewModels.DetallePedidoViewModel>>(detallesJson);
+    
+    // Mantener los detalles en TempData para la siguiente solicitud
+    TempData["DetallesPedido"] = detallesJson;
+    
+    // Asignar los detalles al modelo
+    Model.Detalles = detalles;
+}
+
+<h1>Registro de Despacho</h1>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5>Información del Despacho</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="ConfirmarPedido" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    
+                    <div class="form-group mb-3">
+                        <label asp-for="ClienteId" class="control-label">Cliente</label>
+                        <select asp-for="ClienteId" class="form-control" required>
+                            <option value="">-- Seleccione un Cliente --</option>
+                            @foreach (var cliente in Model.Clientes)
+                            {
+                                <option value="@cliente.Id">@cliente.Nombre @cliente.Apellido (@cliente.Dni)</option>
+                            }
+                        </select>
+                        <span asp-validation-for="ClienteId" class="text-danger"></span>
+                    </div>
+                    
+                    <div class="form-group mb-3">
+                        <label class="control-label">Usuario</label>
+                        <input type="text" class="form-control" value="@Model.Usuario" readonly />
+                        <input type="hidden" asp-for="Usuario" value="@Model.Usuario" />
+                    </div>
+                    
+                    <hr />
+                    
+                    <h5>Agregar Productos</h5>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form id="formAgregarProducto" asp-action="AgregarProducto" method="post" class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="productoId" class="form-label">Producto</label>
+                                    <select name="productoId" id="productoId" class="form-control" required>
+                                        <option value="">-- Seleccione un Producto --</option>
+                                        @foreach (var producto in Model.Productos)
+                                        {
+                                            <option value="@producto.Id" data-precio="@producto.PrecioVta">@producto.Id - @producto.Nombre</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="cantidad" class="form-label">Cantidad</label>
+                                    <input type="number" name="cantidad" id="cantidad" class="form-control" value="1" min="1" required />
+                                </div>
+                                <div class="col-md-3 d-flex align-items-end">
+                                    <button type="submit" class="btn btn-success">Agregar Producto</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <hr />
+                    
+                    <h5>Detalle del Pedido</h5>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Código</th>
+                                    <th>Descripción</th>
+                                    <th>Cantidad</th>
+                                    <th>Precio Unitario</th>
+                                    <th>Subtotal</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.Detalles.Any())
+                                {
+                                    foreach (var detalle in Model.Detalles)
+                                    {
+                                        <tr>
+                                            <td>@detalle.ProductoId</td>
+                                            <td>@detalle.Descripcion</td>
+                                            <td>@detalle.Cantidad</td>
+                                            <td>@detalle.PrecioUnitario.ToString("C")</td>
+                                            <td>@detalle.Subtotal.ToString("C")</td>
+                                            <td>
+                                                <form asp-action="EliminarProducto" method="post">
+                                                    <input type="hidden" name="productoId" value="@detalle.ProductoId" />
+                                                    <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="6" class="text-center">No hay productos agregados</td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2"><strong>Totales:</strong></td>
+                                    <td><strong>@Model.TotalProductos</strong></td>
+                                    <td></td>
+                                    <td><strong>@Model.Total.ToString("C")</strong></td>
+                                    <td></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    
+                    <div class="form-group mt-4 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg" @(Model.Detalles.Any() ? "" : "disabled")>
+                            <i class="bi bi-check-circle"></i> Confirmar Pedido
+                        </button>
+                        <a asp-action="Index" class="btn btn-secondary btn-lg">
+                            <i class="bi bi-x-circle"></i> Cancelar
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+    <script>
+        $(document).ready(function() {
+            // Evitar envío duplicado del formulario
+            $('form').submit(function() {
+                $(this).find(':submit').attr('disabled', 'disabled');
+            });
+            
+            // Separar los formularios para evitar conflictos
+            $('#formAgregarProducto').on('submit', function(e) {
+                e.preventDefault();
+                
+                var productoId = $('#productoId').val();
+                var cantidad = $('#cantidad').val();
+                
+                if (productoId && cantidad > 0) {
+                    var form = $(this);
+                    $.ajax({
+                        url: form.attr('action'),
+                        type: 'POST',
+                        data: form.serialize(),
+                        success: function() {
+                            window.location.reload();
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}

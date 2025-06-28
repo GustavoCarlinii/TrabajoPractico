@@ -1,13 +1,13 @@
 ﻿using CrudMVCApp.Data;
+using CrudMVCApp.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Session;
-using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Http;
+using System.Linq;
 
 namespace CrudMVCApp.Controllers
 {
     public class LoginController : Controller
     {
-        
         private readonly AppDbContext _context;
 
         public LoginController(AppDbContext context)
@@ -16,52 +16,74 @@ namespace CrudMVCApp.Controllers
         }
 
         [HttpGet]
-        public ActionResult Login()
+        public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult Login(string nombreUsuario, string clave)
+        public IActionResult Login(Usuario model)
         {
-            // Aca abajo iria el AppDbContext db
-            var usuario = _context.Usuario.FirstOrDefault(u => u.nombre == nombreUsuario && u.Clave == clave);
-            if (usuario != null)
+            // Asegurarse de que el modelo tenga un valor para Tipo
+            if (string.IsNullOrEmpty(model.Tipo))
             {
-                HttpContext.Session.SetString("Usuario", usuario.nombre);
-                HttpContext.Session.SetString("Tipo", usuario.Tipo);
-                
-                if (usuario.Tipo == "admin")
-                    return RedirectToAction("VistaAdmin", "Login");
+                model.Tipo = "usuario";
+            }
+            
+            if (ModelState.IsValid)
+            {
+                var usuario = _context.Usuario.FirstOrDefault(u => u.nombre == model.nombre && u.Clave == model.Clave);
+                if (usuario != null)
+                {
+                    HttpContext.Session.SetString("Usuario", usuario.nombre);
+                    HttpContext.Session.SetString("Tipo", usuario.Tipo); // "admin" o "usuario"
+
+                    if (usuario.Tipo == "admin")
+                        return RedirectToAction("VistaAdmin");
+                    else
+                        return RedirectToAction("VistaUsuario");
+                }
                 else
-                    return RedirectToAction("VistaUsuario", "Login");
+                {
+                    ModelState.AddModelError("", "Usuario o contraseña incorrectos. Verifique sus credenciales.");
+                }
+            }
+            else
+            {
+                // Identificar y mostrar errores específicos
+                foreach (var modelState in ModelState.Values)
+                {
+                    foreach (var error in modelState.Errors)
+                    {
+                        // Agregar cada error específico
+                        ModelState.AddModelError("", error.ErrorMessage);
+                    }
+                }
             }
 
-            ViewBag.Error = "Usuario o clave incorrecta";
+            return View(model);
+        }
+
+        public IActionResult VistaAdmin()
+        {
+            if (HttpContext.Session.GetString("Tipo") != "admin")
+                return RedirectToAction("Login");
+
+            ViewBag.Usuario = HttpContext.Session.GetString("Usuario");
             return View();
         }
 
         public IActionResult VistaUsuario()
         {
-            if (HttpContext.Session.GetString("Rol") != "usuario")
+            if (HttpContext.Session.GetString("Tipo") != "usuario")
                 return RedirectToAction("Login");
 
             ViewBag.Usuario = HttpContext.Session.GetString("Usuario");
             return View();
         }
 
-        public IActionResult VistaAdmin()
-        {
-            if (HttpContext.Session.GetString("Rol") != "admin")
-                return RedirectToAction("Login");
-
-            ViewBag.Usuario = HttpContext.Session.GetString("Usuario");
-            return View();
-        }
-
-
-        [HttpGet]
-        public ActionResult Logout()
+        [HttpPost]
+        public IActionResult Logout()
         {
             HttpContext.Session.Clear();
             return RedirectToAction("Login");

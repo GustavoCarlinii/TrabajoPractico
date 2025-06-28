@@ -1,0 +1,16 @@
+﻿@model CrudMVCApp.Models.Pedido
+
+@{
+    ViewData["Title"] = "Detalle del Pedido";
+}
+
+<h2>Detalle del Pedido</h2>
+
+<div class="card mt-4 p-3">
+    <p><strong>ID:</strong> @Model.id</p>
+    <p><strong>Usuario:</strong> @Model.Usuario</p>
+    <p><strong>Fecha:</strong> @Model.Fecha.ToString("dd/MM/yyyy")</p>
+    <p><strong>Detalles:</strong> @Model.Detalles</p>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary mt-3">Volver al listado</a>

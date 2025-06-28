@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CrudMVCApp.Data;
 using CrudMVCApp.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace CrudMVCApp.Controllers
 {
@@ -18,54 +15,56 @@ namespace CrudMVCApp.Controllers
         {
             _context = context;
         }
-        public IActionResult Index1()
-        {
-            if (HttpContext.Session.GetString("Rol") != "admin")
-            {
-                return RedirectToAction("Login", "Login");
-            }
 
-            return View(_context.Usuario.ToList());
+        private bool EsAdmin()
+        {
+            return HttpContext.Session.GetString("Tipo") == "admin";
         }
 
+        private IActionResult RedireccionSiNoAdmin()
+        {
+            if (!EsAdmin())
+                return RedirectToAction("Login", "Login");
 
-        // GET: Usuarios
+            return null;
+        }
+
         public async Task<IActionResult> Index()
         {
+            var redir = RedireccionSiNoAdmin();
+            if (redir != null) return redir;
+
             return View(await _context.Usuario.ToListAsync());
         }
 
-        // GET: Usuarios/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            var redir = RedireccionSiNoAdmin();
+            if (redir != null) return redir;
 
-            var usuario = await _context.Usuario
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
+
+            var usuario = await _context.Usuario.FirstOrDefaultAsync(m => m.Id == id);
+            if (usuario == null) return NotFound();
 
             return View(usuario);
         }
 
-        // GET: Usuarios/Create
         public IActionResult Create()
         {
+            var redir = RedireccionSiNoAdmin();
+            if (redir != null) return redir;
+
             return View();
         }
 
-        // POST: Usuarios/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,user,Clave")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("Id,nombre,Clave,Tipo")] Usuario usuario)
         {
+            var redir = RedireccionSiNoAdmin();
+            if (redir != null) return redir;
+
             if (ModelState.IsValid)
             {
                 _context.Add(usuario);
@@ -75,33 +74,27 @@ namespace CrudMVCApp.Controllers
             return View(usuario);
         }
 
-        // GET: Usuarios/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            var redir = RedireccionSiNoAdmin();
+            if (redir != null) return redir;
+
+            if (id == null) return NotFound();
 
             var usuario = await _context.Usuario.FindAsync(id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
+            if (usuario == null) return NotFound();
+
             return View(usuario);
         }
 
-        // POST: Usuarios/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,user,Clave")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,nombre,Clave,Tipo")] Usuario usuario)
         {
-            if (id != usuario.Id)
-            {
-                return NotFound();
-            }
+            var redir = RedireccionSiNoAdmin();
+            if (redir != null) return redir;
+
+            if (id != usuario.Id) return NotFound();
 
             if (ModelState.IsValid)
             {
@@ -113,49 +106,42 @@ namespace CrudMVCApp.Controllers
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!UsuarioExists(usuario.Id))
-                    {
                         return NotFound();
-                    }
                     else
-                    {
                         throw;
-                    }
                 }
                 return RedirectToAction(nameof(Index));
             }
             return View(usuario);
         }
 
-        // GET: Usuarios/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            var redir = RedireccionSiNoAdmin();
+            if (redir != null) return redir;
 
-            var usuario = await _context.Usuario
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
+
+            var usuario = await _context.Usuario.FirstOrDefaultAsync(m => m.Id == id);
+            if (usuario == null) return NotFound();
 
             return View(usuario);
         }
 
-        // POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            var redir = RedireccionSiNoAdmin();
+            if (redir != null) return redir;
+
             var usuario = await _context.Usuario.FindAsync(id);
             if (usuario != null)
             {
                 _context.Usuario.Remove(usuario);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
@@ -163,6 +149,5 @@ namespace CrudMVCApp.Controllers
         {
             return _context.Usuario.Any(e => e.Id == id);
         }
-
     }
 }

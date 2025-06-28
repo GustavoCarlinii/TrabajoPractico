@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrudMVCApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63ef75fbaf130ebe249340436a55f33455c1b8a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrudMVCApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrudMVCApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

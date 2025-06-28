@@ -1,38 +1,130 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Controllers\\LoginController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\LoginController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\login\\vistausuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\login\\vistausuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Controllers\\UsuariosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UsuariosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Models\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\login\\vistaadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\login\\vistaadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Views\\Login\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Login\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\direccions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\direccions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Views\\Personas\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Personas\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\pedidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\personas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\personas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\productos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\pedidos\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\pedidos\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\migrations\\20250628144718_updatedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:migrations\\20250628144718_updatedatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\productos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\productos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\productos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\productos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\pedidos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\pedidos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\controllers\\direccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:controllers\\direccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\views\\personas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:views\\personas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|c:\\users\\mario\\downloads\\crudmvcapp 2\\crudmvcapp\\migrations\\20250628145914_creationdatabse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C96870D-1F80-46CC-9857-78280B75C434}|CrudMVCApp.csproj|solutionrelative:migrations\\20250628145914_creationdatabse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,52 +134,345 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T13:28:17.229Z",
+              "DocumentIndex": 2,
+              "Title": "VistaAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Login\\VistaAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\VistaAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Login\\VistaAdmin.cshtml",
+              "RelativeToolTip": "Views\\Login\\VistaAdmin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T16:04:06.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T22:53:20.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAYwFQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T22:55:51.251Z"
+              "WhenOpened": "2025-06-06T00:59:33.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwEwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T15:20:41.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VistaUsuario.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Login\\VistaUsuario.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\VistaUsuario.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Login\\VistaUsuario.cshtml",
+              "RelativeToolTip": "Views\\Login\\VistaUsuario.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T16:04:56.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Views\\Login\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Views\\Login\\Login.cshtml",
-              "RelativeToolTip": "Views\\Login\\Login.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAwwJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T16:11:48.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Pedidos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pedidos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Pedidos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Pedidos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T22:53:20.996Z"
+              "WhenOpened": "2025-06-20T15:07:51.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Productos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Productos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T12:35:34.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T15:06:05.245Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Direccions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Direccions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Direccions\\Index.cshtml",
+              "RelativeToolTip": "Views\\Direccions\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T15:02:49.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T15:06:03.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Personas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Personas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Personas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Personas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T15:03:13.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Productos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Productos\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T12:34:15.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Detalle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Pedidos\\Detalle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pedidos\\Detalle.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Pedidos\\Detalle.cshtml",
+              "RelativeToolTip": "Views\\Pedidos\\Detalle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T15:08:53.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250628145914_CreationDatabse.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Migrations\\20250628145914_CreationDatabse.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250628145914_CreationDatabse.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Migrations\\20250628145914_CreationDatabse.cs",
+              "RelativeToolTip": "Migrations\\20250628145914_CreationDatabse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T14:59:14.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250628144718_updateDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Migrations\\20250628144718_updateDatabase.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250628144718_updateDatabase.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Migrations\\20250628144718_updateDatabase.cs",
+              "RelativeToolTip": "Migrations\\20250628144718_updateDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T14:47:18.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-28T14:58:38.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Productos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Productos\\Create.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T12:34:13.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Models\\Pedido.cs",
+              "RelativeToolTip": "Models\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:24:15.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:30:24.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T00:53:52.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Productos\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Productos\\Details.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T12:34:16.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Productos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Productos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Productos\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Productos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T12:34:14.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:26:55.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:01:37.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Models\\Persona.cs",
+              "RelativeToolTip": "Models\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:00:56.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Pedidos\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pedidos\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Pedidos\\Crear.cshtml",
+              "RelativeToolTip": "Views\\Pedidos\\Crear.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-20T15:17:03.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,53 +480,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 27,
+              "Title": "DireccionsController.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\DireccionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DireccionsController.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\DireccionsController.cs",
+              "RelativeToolTip": "Controllers\\DireccionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:05:44.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PersonasController.cs",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\PersonasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PersonasController.cs",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Controllers\\PersonasController.cs",
+              "RelativeToolTip": "Controllers\\PersonasController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:03:10.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Views\\Personas\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Personas\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Personas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Views\\Personas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Mario\\Downloads\\CrudMVCApp 2\\CrudMVCApp\\Views\\Personas\\Create.cshtml",
               "RelativeToolTip": "Views\\Personas\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-06T01:18:24.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T00:59:33.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T00:53:52.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Mario\\Downloads\\Enrique\\CrudMVCApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T22:57:45.324Z"
             }
           ]
         }

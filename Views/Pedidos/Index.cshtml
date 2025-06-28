@@ -1,0 +1,39 @@
+﻿@model List<CrudMVCApp.Models.Pedido>
+
+@{
+    ViewData["Title"] = "Listado de Pedidos";
+}
+
+<h2>Listado de Pedidos</h2>
+<a asp-action="Crear" class="btn btn-success mb-3">+ Nuevo Pedido</a>
+
+
+<!-- Formulario para buscar por nombre de usuario -->
+<form method="get" asp-action="Index">
+    <input type="text" name="buscarUsuario" placeholder="Buscar por usuario" class="form-control" />
+    <button type="submit" class="btn btn-primary mt-2">Buscar</button>
+</form>
+
+<table class="table table-striped mt-4">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Usuario</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pedido in Model)
+        {
+            <tr>
+                <td>@pedido.id</td>
+                <td>@pedido.Usuario</td>
+                <td>@pedido.Fecha.ToShortDateString()</td>
+                <td>
+                    <a class="btn btn-info btn-sm" asp-action="Detalle" asp-route-id="@pedido.id">Ver Detalle</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
