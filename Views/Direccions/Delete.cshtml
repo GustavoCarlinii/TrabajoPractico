@@ -1,0 +1,40 @@
+﻿@model CrudMVCApp.Models.Direccion
+
+@{
+    ViewData["Title"] = "Eliminar Dirección";
+}
+
+<div class="container mt-5" style="max-width: 600px;">
+    <div class="card shadow-sm">
+        <div class="card-header bg-danger text-white">
+            <h3 class="mb-0"><i class="bi bi-trash-fill me-2"></i>Eliminar Dirección</h3>
+        </div>
+        <div class="card-body">
+            <h5 class="mb-3">¿Está seguro que desea eliminar esta dirección?</h5>
+
+            <dl class="row">
+                <dt class="col-sm-4 fw-semibold">@Html.DisplayNameFor(model => model.Calle)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Calle)</dd>
+
+                <dt class="col-sm-4 fw-semibold">@Html.DisplayNameFor(model => model.Ciudad)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Ciudad)</dd>
+
+                <dt class="col-sm-4 fw-semibold">@Html.DisplayNameFor(model => model.CodigoPostal)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CodigoPostal)</dd>
+
+                <dt class="col-sm-4 fw-semibold">Persona (ID)</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Persona.Id)</dd>
+            </dl>
+
+            <form asp-action="Delete" method="post" class="mt-4">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn btn-danger">
+                    <i class="bi bi-trash me-1"></i> Eliminar
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary ms-2">
+                    <i class="bi bi-arrow-left-circle me-1"></i> Volver al listado
+                </a>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+@model CrudMVCApp.Models.Usuario
+
+@{
+    ViewData["Title"] = "Crear Usuario";
+}
+
+<h1 class="mb-4">Crear Usuario</h1>
+
+<h4>Datos del Usuario</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6 col-lg-4">
+        <form asp-action="Create" method="post" novalidate>
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="nombre" class="form-label">Nombre de Usuario</label>
+                <input asp-for="nombre" class="form-control" placeholder="Ingrese el nombre de usuario" />
+                <span asp-validation-for="nombre" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Clave" class="form-label">Contraseña</label>
+                <input asp-for="Clave" type="password" class="form-control" placeholder="Ingrese la contraseña" />
+                <span asp-validation-for="Clave" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Tipo" class="form-label">Tipo de Usuario</label>
+                <select asp-for="Tipo" class="form-select">
+                    <option value="">-- Seleccione un tipo --</option>
+                    <option value="usuario">Usuario</option>
+                    <option value="admin">Administrador</option>
+                </select>
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Crear</button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Volver a la lista</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

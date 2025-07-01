@@ -1,0 +1,171 @@
+@model CrudMVCApp.Models.Pedido
+
+@{
+    ViewData["Title"] = "Registro de Despacho";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0"><i class="bi bi-truck me-2"></i>Registro de Despacho</h2>
+        </div>
+        <div class="card-body">
+            <div class="card-body">
+                @if (TempData["Error"] != null)
+                {
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <i class="bi bi-exclamation-triangle-fill me-2"></i> @TempData["Error"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+                
+                @if (TempData["Success"] != null)
+                {
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <i class="bi bi-check-circle-fill me-2"></i> @TempData["Success"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+
+                <!-- Selección de Cliente -->
+                <div class="card mb-4">
+                    <div class="card-header bg-light">
+                        <h5 class="mb-0">1. Seleccionar Cliente</h5>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="SeleccionarCliente" method="post" class="row g-3">
+                            <div class="col-md-8">
+                                <select name="clienteId" class="form-select" required>
+                                    <option value="">-- Seleccione un cliente --</option>
+                                    @foreach (var item in ViewBag.Clientes)
+                                    {
+                                        <option value="@item.Value" selected="@(Model.ClienteId == int.Parse(item.Value))">@item.Text</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <button type="submit" class="btn btn-primary w-100">
+                                    <i class="bi bi-check-circle me-1"></i> Seleccionar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                @if (Model.ClienteId > 0)
+                {
+                    <!-- Cliente Seleccionado -->
+                    <div class="alert alert-info mb-4">
+                        <strong>Cliente seleccionado:</strong> @Model.Cliente?.Nombre @Model.Cliente?.Apellido
+                    </div>
+
+                    <!-- Agregar Productos -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0">2. Agregar Productos</h5>
+                        </div>
+                        <div class="card-body">
+                            <form asp-action="AgregarProducto" method="post" class="row g-3">
+                                <div class="col-md-6">
+                                    <select name="productoId" class="form-select" required>
+                                        <option value="">-- Seleccione un producto --</option>
+                                        @foreach (var item in ViewBag.Productos)
+                                        {
+                                            <option value="@item.Value">@item.Text</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <input type="number" name="cantidad" class="form-control" placeholder="Cantidad" min="1" required />
+                                </div>
+                                <div class="col-md-3">
+                                    <button type="submit" class="btn btn-success w-100">
+                                        <i class="bi bi-plus-circle me-1"></i> Agregar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Detalle de Productos -->
+                    <div class="card mb-4">
+                        <div class="card-header bg-light">
+                            <h5 class="mb-0">3. Detalle de Productos</h5>
+                        </div>
+                        <div class="card-body">
+                            @if (Model.Detalles.Any())
+                            {
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-hover">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th>Producto</th>
+                                                <th class="text-center">Cantidad</th>
+                                                <th class="text-end">Precio Unit.</th>
+                                                <th class="text-end">Subtotal</th>
+                                                <th class="text-center">Acciones</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var detalle in Model.Detalles)
+                                            {
+                                                <tr>
+                                                    <td>@detalle.Producto?.Nombre</td>
+                                                    <td class="text-center">
+                                                        <form asp-action="ActualizarCantidad" method="post" class="d-flex align-items-center justify-content-center">
+                                                            <input type="hidden" name="productoId" value="@detalle.ProductoId" />
+                                                            <input type="number" name="cantidad" value="@detalle.Cantidad" 
+                                                                   class="form-control form-control-sm" style="width: 70px;" min="1" />
+                                                            <button type="submit" class="btn btn-sm btn-outline-primary ms-2">
+                                                                <i class="bi bi-check"></i>
+                                                            </button>
+                                                        </form>
+                                                    </td>
+                                                    <td class="text-end">$@detalle.PrecioUnitario.ToString("N2")</td>
+                                                    <td class="text-end">$@detalle.Subtotal.ToString("N2")</td>
+                                                    <td class="text-center">
+                                                        <form asp-action="EliminarProducto" method="post" style="display: inline;">
+                                                            <input type="hidden" name="productoId" value="@detalle.ProductoId" />
+                                                            <button type="submit" class="btn btn-sm btn-danger">
+                                                                <i class="bi bi-trash"></i>
+                                                            </button>
+                                                        </form>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                        <tfoot class="table-light">
+                                            <tr>
+                                                <th colspan="2">Total:</th>
+                                                <th class="text-end">@Model.TotalProductos productos</th>
+                                                <th class="text-end">$@Model.Total.ToString("N2")</th>
+                                                <th></th>
+                                            </tr>
+                                        </tfoot>
+                                    </table>
+                                </div>
+
+                                <!-- Información del Usuario y Botón de Confirmación -->
+                                <div class="mt-4 d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <strong>Usuario:</strong> @Model.Usuario
+                                    </div>
+                                    <form asp-action="ConfirmarPedido" method="post">
+                                        <button type="submit" class="btn btn-lg btn-primary">
+                                            <i class="bi bi-check-circle-fill me-2"></i> Confirmar Pedido
+                                        </button>
+                                    </form>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="alert alert-warning">
+                                    No hay productos agregados al pedido.
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+﻿@model CrudMVCApp.Models.Producto
+
+@{
+    ViewData["Title"] = "Detalle del Producto";
+}
+
+<div class="container mt-5">
+    <div class="card shadow p-4">
+        <h3 class="mb-4 text-primary">Detalles del Producto</h3>
+
+        <dl class="row">
+            <dt class="col-sm-3 fw-bold">
+                @Html.DisplayNameFor(model => model.Nombre)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Nombre)
+            </dd>
+
+            <dt class="col-sm-3 fw-bold">
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Descripcion)
+            </dd>
+
+            <dt class="col-sm-3 fw-bold">
+                @Html.DisplayNameFor(model => model.PrecioCompra)
+            </dt>
+            <dd class="col-sm-9">
+                $@Html.DisplayFor(model => model.PrecioCompra)
+            </dd>
+
+            <dt class="col-sm-3 fw-bold">
+                @Html.DisplayNameFor(model => model.PrecioVta)
+            </dt>
+            <dd class="col-sm-9">
+                $@Html.DisplayFor(model => model.PrecioVta)
+            </dd>
+
+            <dt class="col-sm-3 fw-bold">
+                @Html.DisplayNameFor(model => model.Stock)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Stock)
+            </dd>
+        </dl>
+
+        <div class="mt-4">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning me-2">
+                <i class="bi bi-pencil"></i> Editar
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left-circle"></i> Volver al listado
+            </a>
+        </div>
+    </div>
+</div>

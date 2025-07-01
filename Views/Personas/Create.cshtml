@@ -1,0 +1,77 @@
+﻿@model CrudMVCApp.Models.Persona
+
+@{
+    ViewData["Title"] = "Nueva Persona";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0"><i class="bi bi-person-plus-fill me-2"></i>Crear Nueva Persona</h3>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create" novalidate>
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger d-none" id="validationSummary"></div>
+
+                <div class="mb-3">
+                    <label asp-for="Nombre" class="form-label"></label>
+                    <input asp-for="Nombre" class="form-control" />
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Apellido" class="form-label"></label>
+                    <input asp-for="Apellido" class="form-control" />
+                    <span asp-validation-for="Apellido" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Dni" class="form-label"></label>
+                    <input asp-for="Dni" class="form-control" />
+                    <span asp-validation-for="Dni" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Cuit" class="form-label"></label>
+                    <input asp-for="Cuit" class="form-control" />
+                    <span asp-validation-for="Cuit" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label d-block">Deportes que practica</label>
+                    <div class="form-check form-check-inline">
+                        <input asp-for="Futbol" class="form-check-input" id="futbolCheck" />
+                        <label asp-for="Futbol" class="form-check-label" for="futbolCheck">Fútbol</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input asp-for="Basquet" class="form-check-input" id="basquetCheck" />
+                        <label asp-for="Basquet" class="form-check-label" for="basquetCheck">Básquet</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input asp-for="Otros" class="form-check-input" id="otrosCheck" />
+                        <label asp-for="Otros" class="form-check-label" for="otrosCheck">Otros</label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Genero" class="form-label"></label>
+                    <input asp-for="Genero" class="form-control" />
+                    <span asp-validation-for="Genero" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-check-lg me-1"></i> Crear
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary ms-2">
+                    <i class="bi bi-x-lg me-1"></i> Cancelar
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
