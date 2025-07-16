@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Panel de Usuario";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm mx-auto" style="max-width: 700px;">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0">
+                <i class="bi bi-house-door-fill me-2"></i>Panel de Usuario
+            </h2>
+        </div>
+        <div class="card-body">
+            <h4>Bienvenido, <span class="text-success">@ViewBag.Usuario</span></h4>
+            <p class="lead">
+                Desde aquí podés navegar tus pedidos o productos.
+            </p>
+            <a href="@Url.Action("Index", "Pedidos")" class="btn btn-success me-2">
+                <i class="bi bi-basket3 me-1"></i> Mis Pedidos
+            </a>
+            <a href="@Url.Action("Index", "Productos")" class="btn btn-info">
+                <i class="bi bi-box-seam me-1"></i> Productos
+            </a>
+        </div>
+    </div>
+</div>

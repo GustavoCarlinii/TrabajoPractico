@@ -1,0 +1,24 @@
+@model CrudMVCApp.Models.Usuario
+
+@{
+    ViewData["Title"] = "Detalles de Usuario";
+}
+
+<h1 class="mb-4">Detalles de Usuario</h1>
+
+<div class="card p-4 mb-4">
+    <h4 class="mb-3">Usuario</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3 fw-semibold">@Html.DisplayNameFor(model => model.nombre)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.nombre)</dd>
+
+        <dt class="col-sm-3 fw-semibold">@Html.DisplayNameFor(model => model.Tipo)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Tipo)</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary me-2">Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+</div>
